@@ -1,11 +1,11 @@
 {
   "registered_model_name": "accident-severity-classifier",
-  "registered_version": 2,
+  "registered_version": 1,
   "alias": "champion",
-  "model_version": "accident-severity-classifier/v2",
-  "mlflow_run_id": "8048a01465704f9aa8f2d297053f3392",
-  "champion_algorithm": "LightGBM",
-  "trained_at": "2026-10-13T21:31:06.239702+00:00",
+  "model_version": "accident-severity-classifier/v1",
+  "mlflow_run_id": "5c1487927b6547d9873171abae5a5ff1",
+  "champion_algorithm": "XGBoost",
+  "trained_at": "2026-11-03T18:06:17.607641+00:00",
   "training_rows": 359621,
   "features": {
     "numeric": [
@@ -31,9 +31,9 @@
     ]
   },
   "baseline_test_metrics": {
-    "macro_f1": 0.3688889878314485,
-    "accuracy": 0.6771820092912201,
-    "fatal_fnr": 0.8115044247787611,
-    "serious_fnr": 0.8478496008241051
+    "macro_f1": 0.3718563619922368,
+    "accuracy": 0.6614154836365523,
+    "fatal_fnr": 0.7610619469026548,
+    "serious_fnr": 0.827143960855009
   }
 }
